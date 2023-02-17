@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>Boota Singh</h1>
-        <img src="photo.jpg">
+        <img src="photo.jpg"/>
         <h2>This is for testing purpose only to know more contact 9815839081</h2>
       </main>
     </>
