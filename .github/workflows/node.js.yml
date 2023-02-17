@@ -25,6 +25,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: cd /home/ubuntu/actions-runner/_work/Freshkhao/Freshkhao/my-app
-    - run: npm install
+    - run: cd /home/ubuntu/actions-runner/_work/Freshkhao/Freshkhao/my-app && npm install
     - run: npm run build --if-present
