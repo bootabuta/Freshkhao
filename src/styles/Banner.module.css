@@ -1,0 +1,37 @@
+.container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.one {
+    z-index: 1;
+    background-color: chartreuse;
+    width: 30%;
+    overflow: visible;
+}
+
+.two {
+    z-index: 2;
+    background-color: blueviolet;
+    width: 30%;
+}
+
+.three {
+    z-index: 3;
+    
+    width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .one {
+      display: none;
+    }
+    .two {
+        width: 50%;
+    }
+    .three {
+        width: 50%;
+    }
+  }

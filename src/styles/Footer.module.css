@@ -1,0 +1,93 @@
+.footer {
+    background-color: #2e3333;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+.content_container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 15x 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    flex: 1;
+    min-width: 224px;
+    background: hsla(0,0%,100%,.1);
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin: 8px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.card ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.card ul li {
+    list-style-position: inside;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.card ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 10px;
+}
+
+.card ul li :hover {
+    color: #00b8a9;
+}
+
+.google {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.apple {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.bottom_content {
+    padding: 15px 5px;
+    display: flex;
+    color: hsla(0,0%,100%,.1);
+}
+
+.social_icon {
+    flex: .5;
+    text-align: left;
+}
+
+.social_icon a {
+    padding: 5px;
+    color: #fff;
+}
+.copyright {
+    padding: 3px;
+    flex: .5;
+    text-align: right;
+}
