@@ -20,7 +20,8 @@
 
 .three {
     z-index: 3;
-    
+    padding-top: 10px;
+    text-align: center;
     width: 40%;
 }
 

@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../../styles/Header.module.css'
 import Link from 'next/link'
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Header = () => {
   return (
@@ -9,30 +11,35 @@ const Header = () => {
       <div className={styles.logo}>
           <span>Freshkhao</span>
       </div>
+
       <div className={styles.items}>
+        
+
+      <span className={styles.button}>
+          <Link href='/'>
+            
+              <KeyboardArrowDownIcon className={styles.icons}/>
+              Partner with us
+            
+          </Link>
+        </span> 
+
+        
         <span className={styles.button}>
           <Link href='/'>
             
-              <MenuIcon/>
+              <HomeIcon className={styles.icons}/>
+              Sign up or login
+            
+          </Link>
+        </span> 
+
+
+        <span className={styles.button}>
+          <Link href='/'>
+            
+              <MenuIcon className={styles.icons}/>
               Menu
-            
-          </Link>
-        </span>
-        <span className={styles.button}>
-          <Link href='/'>
-            
-              <span style={{
-                justifyItems: 'center'
-              }}><MenuIcon/></span>
-              <span>Menu</span>
-            
-          </Link>
-        </span>
-        <span className={styles.button}>
-          <Link href='/'>
-            
-              <MenuIcon/>
-              Menu 2
             
           </Link>
         </span>             
