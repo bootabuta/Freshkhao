@@ -32,7 +32,7 @@ const Header = () => {
           <Link href='/'>
             
               <MenuIcon/>
-              Menu
+              Menu 2
             
           </Link>
         </span>             
