@@ -6,15 +6,7 @@ const Banner = () => {
   return (
     <div className={styles.container}>
         <div className={styles.one}>Banner
-        <p>data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-         
-          </p>
+          <img src="burger.png" className={styles.burger_1} />
         </div>
 
         <div className={styles.three}>
@@ -28,16 +20,10 @@ const Banner = () => {
 
 
 
-        <div className={styles.two}>ata jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-           vdfov fv hghh jfhf hjfh jfh yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff 
-           data jsdf djsjd jsdfjd idf9ocov iknus icn iffj finvsi invnidnv  ifvnvi vini ifi n  vifv useImperativeHandle(
-        
-      
-            yujujh fufjn jjnfud jdhf uh hihdfhfid j fuddfi ii iiiif iff</div>
+        <div className={styles.two}>
+            <img src="burger.png" className={styles.burger} />
+            
+        </div>
     </div>
   )
 }

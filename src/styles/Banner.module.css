@@ -1,5 +1,5 @@
 .container {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
@@ -7,22 +7,30 @@
 
 .one {
     z-index: 1;
-    background-color: chartreuse;
     width: 30%;
     overflow: visible;
 }
 
 .two {
     z-index: 2;
-    background-color: blueviolet;
-    width: 30%;
+    width: 70%-600;
 }
 
 .three {
     z-index: 3;
-    padding-top: 10px;
+    padding-top: 100px;
     text-align: center;
-    width: 40%;
+    width: 600px;
+    color: #fff;
+    overflow-x: visible;
+}
+
+.burger {
+    width: 100%;
+}
+
+.burger_1 {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
